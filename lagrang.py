@@ -27,5 +27,5 @@ if __name__ == '__main__':
     lag_pol = lagrange()
     print('L4 =', lag_pol)
     #print('L4(x1+x2) =', lag_pol.subs(symbols('x'), X[1] + X[2]))
-    plot(lag_pol, line_color='g')
-    plot(lag_pol, xlim=[0, 4], ylim=[0, 10], line_color='g')
+    #plot(lag_pol, line_color='g')
+    #plot(lag_pol, xlim=[0, 4], ylim=[0, 10], line_color='g')
