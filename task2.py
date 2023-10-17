@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 from sympy import *
 import math
 #в первой функции нужно ввести интегрируемую функцию
-#sin(100*x)*exp**(-x**2)*cos(2*x)
+#sin(100*x)*math.exp(-pow(x,2))*cos(2*x)
 def function(x):
-    return x**(0.5)*cos(x*100)
+    return sin(100*x)*math.exp(-pow(x,2))*cos(2*x)
 print("Введи начало отрезка интегрирования - a")
 a = float(input())
 print("Введи начало отрезка интегрирования - b")
